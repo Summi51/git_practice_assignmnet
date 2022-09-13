@@ -7,7 +7,7 @@ for(let i = 1; i<=n; i++){
     count++;
   }
 }
-if(count==1){
+if(count==2){
   console.log("Prime");
 } else{
   console.log("Not Prime");
@@ -22,7 +22,7 @@ str2= "madam";
 for(let i = str2.length-1;i>=0;i--){
   str1= str1+str2[i];
 }
-if(str2==str2){
+if(str2==str1){
   console.log("Yes");
 }else{
   console.log("No");
